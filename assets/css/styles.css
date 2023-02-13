@@ -13,7 +13,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100vw;
     font-family: Verdana, Tahoma, sans-serif;
 }
 body::before {
@@ -27,13 +26,13 @@ body::before {
     background: rgba(204, 204, 204, 0.3); 
     background-image: linear-gradient(
         115deg,
-        rgba(204, 204, 204, 0.3),
-        rgba(112, 112, 112, 0.2)
-    ),url("../images/681882.jpg");
+        rgba(204, 204, 204, 0.4),
+        rgba(112, 112, 112, 0.4)
+    ),url(https://wallpaperaccess.com/full/2073407.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(4.6px);
+    filter: blur(6px);
   }
 
 header {
@@ -45,13 +44,13 @@ header {
     margin-top: 15px;
 }
 .favicon{
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%) !important;
 }
 .share-button {
     width: 200px;
     height: 40px;
     border-radius: 5px;
-    background-color: rgba(240,240,240, 0.4);
+    background-color: rgba(185, 185, 185, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +69,7 @@ header {
     width: 200px;
     height: 40px;
     border-radius: 5px;
-    background-color: rgba(240,240,240, 0.4);
+    background-color: rgba(185, 185, 185, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,8 +80,6 @@ header {
     cursor: pointer;
 }
 .container {
-    width: 91%;
-    max-width: 680px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -92,7 +89,6 @@ h1 {
     font-size: 20px;
     margin-bottom: 30px;
 }
-
 a {
     text-decoration: none;
     color: rgb(240,240,240);
@@ -105,6 +101,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 15px;
+    align-items: center;
 }
 .tile:hover {
     transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
@@ -126,18 +123,13 @@ font-size: 1.5rem;
 }
 .tile-share-button {
     margin: 8px;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
+    width: 15px;
 }
-
 .tile-share-button svg {
     margin-left: 0px;
     margin-top: 8px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
 }
-
-
 .image-container {
     height: 96px;
     width: 96px;
@@ -145,14 +137,21 @@ font-size: 1.5rem;
     overflow: hidden;
     border: 2px solid #e1e1e1;
 }
-
 .image-container img {
     height: 100%;
 }
-
 .icon {
     margin: 4px 8px;
-    width: 44px;
-    height: 44px;
+    width: 24px;
+    height: 24px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(103%) contrast(101%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 370px){
+    .tile {
+        width: 310px;
+    }
 }
