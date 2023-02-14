@@ -1,0 +1,33 @@
+.share-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(185, 185, 185, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share-button:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.share-button p, .agenda-button p{
+  color: white;
+  margin: 0;
+}
+.agenda-button{
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(185, 185, 185, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.agenda-button:hover{
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
