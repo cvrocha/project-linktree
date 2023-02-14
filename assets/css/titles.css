@@ -24,10 +24,6 @@ a {
   cursor: pointer;
   height: 51px;
 }
-#copy:hover, #email:hover{
-  transition: none;
-  transform: scale(1.00);
-}
 .tile {
   width: 350px;
   background-color: rgba(0,0,0, 0.6);
@@ -39,9 +35,9 @@ a {
   align-items: center;
   cursor: pointer;
 }
-.tile:hover {
-  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
-  transform: scale(1.02) !important;
+.tile:hover, #copy:hover, #email:hover {
+  transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.3s;
+  transform: scale(1.08) !important;
 }
 .title-name, .desc-name{
 margin: 0;
@@ -73,7 +69,15 @@ font-size: 1.5rem;
   width: 0;
 }
 @media screen and (max-width: 370px){
-  .tile {
+  .tile, #copy, #email {
       width: 310px;
+  }
+  .tile:hover, #copy:hover, #email:hover {
+    transform: scale(1.05) !important;
+  }
+}
+@media screen and (max-width: 330px){
+  .tile:hover, #copy:hover, #email:hover  {
+    transform: scale(1.02) !important;
   }
 }
