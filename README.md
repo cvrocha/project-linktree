@@ -4,7 +4,7 @@
 ---
 
 <p align="center">
-  <img alt="screenshot" src="screenshot.png">
+  <img alt="screenshot" src="https://user-images.githubusercontent.com/62439381/220194113-9239546d-ee03-4447-bc41-c44003b0a387.png">
 </p>
 
 ---
