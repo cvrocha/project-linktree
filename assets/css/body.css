@@ -8,8 +8,12 @@ body {
   flex-direction: column;
   font-family: Verdana, Tahoma, sans-serif;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(6px);
+  height: 1280px;
 }
-body::before {
+/* body::before {
   content: '';
   position: fixed;
   top: 0;
@@ -27,7 +31,7 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
   filter: blur(6px);
-}
+} */
 /* #theDiv::before {
   content: '';
   position: fixed;
