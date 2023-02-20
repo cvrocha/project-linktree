@@ -1,5 +1,5 @@
-<h1 align="center">🌲 Linktree</h1>
-<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
+<h1 align="center">🌲 Clone Linktree</h1>
+<h3 align="center">Site simples para agrupar todos os meus perfis de redes sociais em um só lugar.</h3>
 
 ---
 
@@ -9,29 +9,20 @@
 
 ---
 
-## 💡 About the project
+## 💡 Sobre o projeto
 
-This is an open source project that serves as a free alternative to the Linktree website.
-- [Demo](https://johnggli.github.io/linktree)
+Este é um projeto de código aberto que serve como uma alternativa gratuita ao site Linktree.
+- [Demo](https://cvrocha.github.io/project-linktree)
 
-## 🚀 Getting started
+## 🚀 Como Começar ?
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/johnggli/linktree/archive/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+Se você instalou o git, pode clonar o código para sua máquina ou baixar um ZIP de todos os arquivos diretamente.
+[Baixe o ZIP deste local](https://github.com/cvrocha/project-linktree/archive/master.zip), ou execute o seguinte [git](https://git-scm.com/downloads) comando para clonar os arquivos para sua máquina:
 ```bash
-git clone https://github.com/johnggli/linktree
+git clone https://github.com/cvrocha/project-linktree
 ```
-- Once the files are on your machine, open the _linktree_ folder in [Visual Studio Code](https://code.visualstudio.com/).
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-- Change the profile image and texts in the `index.html` file.
-- Change the colors and fonts in the `style.css` file.
-- To change the background, go to the `style.css` file on line 17, uncomment the code snippet and change the url to whatever image you want.
-
-## 🤔 How to contribute
-
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m "feat: my new feature"`;
-- Push to your branch: `git push origin my-feature`.
-
-Once your pull request has been merged, you can delete your branch.
+- Assim que os arquivos estiverem em sua máquina, abra a pasta _linktree_ no [Visual Studio Code](https://code.visualstudio.com/).
+- Com os arquivos abertos no Visual Studio Code, pressione o botão **Go Live** na parte inferior da janela para iniciar os arquivos com [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- Altere a imagem do perfil e os textos no arquivo `index.html`.
+- Altere as cores e fontes no arquivo `style.css`.
+- To change the background, go to the `background.js` file on line 6 e adicione o link da imagem.
