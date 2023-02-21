@@ -3,4 +3,9 @@
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
     --color-green: #37af65;
+    --bgColor: #005cb7;
+    --bgColor2: #8490c9;
+    --accentColor: #FFF;
+    --font: 'Karla', sans-serif;
+    --delay: .3s;
   }

@@ -1,3 +1,7 @@
+html, body {
+  height: fit-content;
+  height: 1280px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -7,42 +11,14 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: Verdana, Tahoma, sans-serif;
-  background-repeat: no-repeat;
-  background-position: center;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   background-size: cover;
-  backdrop-filter: blur(6px);
-  height: 1280px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
+  animation-fill-mode: forwards;
+  position: relative;
 }
-/* body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: rgba(204, 204, 204, 0.3); 
-  background-image: linear-gradient(
-      115deg,
-      rgba(204, 204, 204, 0.4),
-      rgba(112, 112, 112, 0.4)
-  ),url(https://wallpaperaccess.com/full/2073407.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(6px);
-} */
-/* #theDiv::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  background: rgba(204, 204, 204, 0.10); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(6px);
-} */
